@@ -1,14 +1,14 @@
 
 import './style.css'
 
-export function Card(props) {
+export function Card({avatar, name, time}) {
     return (
         <div className="card">
             <div>
-                <img align="center" src={ props.avatar }/>
-                <strong>{ props.name }</strong>
+                <img align="center" src={ avatar }/>
+                <strong>{ name }</strong>
             </div>
-            <small>{ props.time }</small>
+            <small>{ time }</small>
         </div>
     )
 }

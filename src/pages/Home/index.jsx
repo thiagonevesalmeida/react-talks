@@ -1,5 +1,5 @@
 // import state
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 // import local styles
 import './style.css'
@@ -9,20 +9,37 @@ import { Card } from '../../components/Card'
 
 
 export function Home() {
-    const [users, setUsers] = useState([])
+    const [newCard, setNewCard] = useState([])
+    const [user, setUser] = useState({avatar:""})
 
     function addUser(e) {
         e.preventDefault()
 
         const newUser = {
             name: document.querySelector('input').value,
-            avatar: "https://avatars.githubusercontent.com/u/110680813?v=4",
-            time: new Date().toLocaleTimeString('us')
+            avatar: user.avatar,
+            time: new Date().toLocaleTimeString('us', {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            })
         }
 
-        setUsers(previus => [...previus, newUser])
+        setNewCard(prevState => [...prevState, newUser])
         document.querySelector('input').value = ''
     }
+
+    useEffect(() => {
+        let userLogin = document.querySelector('input').value
+        fetch('https://api.github.com/users/' + userLogin)
+        .then(response => response.json())
+        .then(data => {
+            setUser({
+                avatar: data.avatar_url
+            })
+        })
+        .catch(error => console.error(error))
+    }, [newCard])
 
     return (
         <div className="container">
@@ -46,7 +63,7 @@ export function Home() {
             </form>
 
             {
-                users.map(element => 
+                newCard.map(element => 
                     <Card 
                         key={element.time}
                         avatar={element.avatar} 
