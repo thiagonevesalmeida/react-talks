@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --primary-color: #735bf2;
+    --secondary-color: #EA4c89;
+    --text-font:'Roboto', sans-serif;  
+    font-size: 62.5%; /* 1rem = 10px*/
+    
+}
+
+body, 
+input {
+    font-size: 1.6rem;
+    font-family: var(--text-font)
+}
