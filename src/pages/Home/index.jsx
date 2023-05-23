@@ -1,6 +1,12 @@
 
-// importing local styles
-import './styles.css'
+
+
+// import local styles
+import './style.css'
+
+// import component (Card)
+import { Card } from '../../components/Card'
+
 
 export function Home() {
     return (
@@ -23,6 +29,7 @@ export function Home() {
                     Check in
                 </button>
             </form>
+            <Card/>
         </div>
     )
 }
