@@ -1,0 +1,29 @@
+.card {
+    background-color: var(--primary-color);
+    color: #fff;
+    
+    padding: 2em;
+    margin-bottom: 1rem;
+    width: 50%;
+    border-radius: 1rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.card strong {
+    font-size: 1.4rem
+}
+
+.card small {
+    font-size: 1rem;
+    font-weight: 700;
+}

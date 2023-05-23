@@ -1,9 +1,14 @@
-export function Card() {
+
+import './style.css'
+
+export function Card({avatar, name, time}) {
     return (
-        <div className="Card">
-            <strong>Thiago Neves</strong>
-            <small>10:00 pm</small>
+        <div className="card">
+            <div>
+                <img align="center" src={avatar}/>
+                <strong>{name}</strong>
+            </div>
+            <small>{time}</small>
         </div>
-        
     )
 }

@@ -29,7 +29,10 @@ export function Home() {
                     Check in
                 </button>
             </form>
-            <Card/>
+            <Card 
+            avatar="https://avatars.githubusercontent.com/u/110680813?v=4" 
+            name="Thiago" 
+            time="10:00:30 pm"/>
         </div>
     )
 }
