@@ -64,7 +64,7 @@ This documentation provides an overview of the React code created with the Vite 
 
 ## State
 
-- newCard: An array state variable that holds the information of registered users. Each user is represented by an object containing their name adn avatar image from GitHub API, folowwing by there registration chek-in time.
+- newGuest: An array state variable that holds the information of registered users. Each Guest is represented by an object containing their name and avatar image from GitHub API, followed by there registration chek-in time.
 
 ## File Structure
 
