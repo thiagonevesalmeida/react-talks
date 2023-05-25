@@ -40,6 +40,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 React project to create a "Tech Talks" Event application that allows users to check-in with their GitHub login, while fetch their profile information, and display it in a card format using React component-Based Architecture.
 <br>
+
 You can access the project online through [THIS LINK](https://thiagonevesalmeida.github.io/react-talks/) 🚀.
 
 ## 📝 Licença
