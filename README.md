@@ -1,6 +1,6 @@
 <h1 align="center">Tech Talks</h1>
 
-<p align="center">React project to develop a "Tech Talks" Event application that allows users to check-in with their GitHub login 🚀</p>
+<p align="center">React application to develop a "Tech Talks" event hosted by "ReactHub S.A" that allows users to check-in with their GitHub login 🚀</p>
 </p>
 
 <p align="center">
