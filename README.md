@@ -1,6 +1,6 @@
 <h1 align="center">Tech Talks</h1>
 
-<p align="center">React application to develop a "Tech Talks" event hosted by "ReactHub S.A" that allows users to check-in with their GitHub login 🚀</p>
+<p align="center">React project to develop a "Tech Talks" event check-in application that allows users to register with their GitHub information 🚀</p>
 </p>
 
 <p align="center">
@@ -38,7 +38,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-React project to create a "Tech Talks" event application that allows users to check-in with their GitHub login, while fetch their profile information, and display it in a card format using React component-Based Architecture 🚀.
+React project to create a "Tech Talks" Event application that allows users to check-in with their GitHub login, while fetch their profile information, and display it in a card format using React component-Based Architecture.
+You can access the project online through [THIS LINK](https://thiagonevesalmeida.github.io/react-talks/) 🚀.
 
 ## 📝 Licença
 
