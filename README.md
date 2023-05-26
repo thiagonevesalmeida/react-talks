@@ -82,18 +82,6 @@ This documentation provides an overview of the React code created with the Vite 
 - react: The React library for building user interfaces.
 - react-dom: The React DOM library for rendering React components in the browser.
 
-## Build and Development Scripts
-
-- "npm run dev": Starts the development server using Vite and opens the application in the browser. It provides live reloading and displays any lint errors in the console.
-
-- "npm run build": Builds the project using Vite's build command.
-
-- "npm run lint": Runs ESLint to lint the source code files with the extensions .js and .jsx.
-
-- "npm run serve": Serves the production build from the dist folder using a local server.
-
-- "npm run preview": Launches a preview server to preview the production build of the project using Vite.
-
 ## Development Workflow
 
 1) The index.html file serves as the entry point, which includes the root element where the React application is rendered.
@@ -104,5 +92,22 @@ This documentation provides an overview of the React code created with the Vite 
 
 4) During development, running the "npm run dev" script starts the development server and automatically opens the application in the browser. Any changes made to the code trigger a live reload, allowing for a smooth development experience.
 
-5) When ready to deploy the application, running the "npm run build" script generates a production-ready build in the dist folder. The optimized code can then be served using a local server by running the "npm run serve" script.
+## Deploy React project to Git Hub Pages
+
+ 1) Create a GitHub repository for you project.   
+ 
+ 1) Open the package.json file in your project directory. Add a "homepage" field and specify the URL where your application will be hosted on Git Hub Pages. For example:"https://thiagonevesalmeida.github.io/react-talks/".
+
+2) Build your React application, runing the following command: ```npm run build```
+
+Vite will generate a production-ready build of your application in the "dist" directory.
+
+3) Deploy to GitHub Pages
+
+Ensure that you have a GitHub repository set up for your project. If not, create a new repository on GitHub. In the package.json file, under the "scripts" section, you'll find the following script: ``` "deploy": "gh-pages -d dist" ```
+
+This script uses the "gh-pages" package to deploy the contents of the "dist" directory to the gh-pages branch of your GitHub repository. To deploy your application, run the following command: ```npm run deploy```
+    
+After a successful deployment, your React application will be accessible at the URL specified in the "homepage" field of your package.json file.
+Congratulations! You have successfully deployed your React application using Vite and GitHub Pages. 🙋
 
