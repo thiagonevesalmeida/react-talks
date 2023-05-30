@@ -29,10 +29,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Vite (Next.js replacement - in development)
 - React Hook {useState}
 - JSX
+- ESLint
 - Node/NPM
 - API Rest (GitHub)
 - Fetch API
-- ESLint
 - ES6 modules
 - HTML and CSS
 - Git & GitHub
