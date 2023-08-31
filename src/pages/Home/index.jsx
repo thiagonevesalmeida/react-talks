@@ -52,11 +52,11 @@ export const Home = () => {
         <div className="container">
             <header>
                 <div>
-                <h1>Tech Talks</h1>
+                    <h1>Tech Talks</h1>
                 </div>
                 <div>
-                <strong>ReactHub S.A</strong>
-                <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+                    <strong>ReactHub S.A</strong>
+                    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
                 </div>
             </header>
             <form onSubmit={addUser}>
@@ -68,7 +68,7 @@ export const Home = () => {
                     Check in
                 </button>
             </form>
-
+            
             {newGuest.map(element =>
                 <Card
                     key={element.time}
