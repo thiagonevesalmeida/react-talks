@@ -26,7 +26,7 @@ export const Home = () => {
             const data = await response.json()
             const newUser = {
                     name: profileName === ''
-                        ?'Visitor'
+                        ?'Guest'
                         : profileName,
                     avatar: data
                         ?.avatar_url 
