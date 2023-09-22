@@ -37,9 +37,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML and CSS
 - Git & GitHub
 
-## 💻 Projeto
+## 💻 Project
 
-React project to create a "Tech Talks" Event application that allows users to check-in with their GitHub login, while fetch their profile information, and display it in a card format using React component-Based Architecture.
+React project to create a "Tech Talks" Event application that allows users to check in with their GitHub login, while fetch their profile information, and display it in a card format using React component-Based Architecture.
 <br>
 
 You can access the project online through [THIS LINK](https://thiagonevesalmeida.github.io/react-talks/) 🚀.
@@ -64,15 +64,15 @@ This documentation provides an overview of the React code created with the Vite 
 
 - Home: The main component responsible for rendering the Tech Talks application UI.
 
-- Card : A component that displays user infromation in the application.
+- Card: A component that displays user information in the application.
 
 ## State
 
-- newGuest: An array state variable that holds the information of registered users. Each Guest is represented by an object containing their name and avatar image from GitHub API, followed by there registration chek-in time.
+- newGuest: An array state variable that holds the information of registered users. Each Guest is represented by an object containing their name and avatar image from GitHub API, followed by their registration check-in time.
 
 ## File Structure
 
-- index.html: The HTML template file that serves as the entry point for the application. It includes a <div> element with an ID of root where the React application is rendered.
+- index.html: The HTML template file that serves as the entry point for the application. It includes a <div> element with an ID of the root where the React application is rendered.
 
 - main.jsx: The entry file that initializes the React application and renders the Home component into the root element.
 
@@ -95,11 +95,11 @@ This documentation provides an overview of the React code created with the Vite 
 
 ## Deploy React project to Git Hub Pages
 
- 1) Create a GitHub repository for you project.   
+ 1) Create a GitHub repository for your project.   
  
- 1) Open the package.json file in your project directory. Add a "homepage" field and specify the URL where your application will be hosted on Git Hub Pages. For example:"https://thiagonevesalmeida.github.io/react-talks/".
+ 1) Open the package.json file in your project directory. Add a "homepage" field and specify the URL where your application will be hosted on Git Hub Pages. For example: "https://thiagonevesalmeida.github.io/react-talks/".
 
-2) Build your React application, runing the following command: ```npm run build```
+2) Build your React application, running the following command: ```npm run build```
 
 Vite will generate a production-ready build of your application in the "dist" directory.
 
