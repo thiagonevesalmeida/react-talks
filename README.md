@@ -23,7 +23,7 @@
 
 ## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - React
 - Vite (Next.js replacement - in development)
@@ -46,7 +46,7 @@ You can access the project online through [THIS LINK](https://thiagonevesalmeida
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT.
+This project is under the MIT license.
 
 ## 📨 Contato
 
